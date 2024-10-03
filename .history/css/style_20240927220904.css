@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Inter", sans-serif;
+    height: 4000px;
+}
+:root{
+    --main-color:hsla(0, 0%, 12%, 1);
+
+}
+.navbar{
+    margin-block-end: 70px;
+}
+.landing-mainText{
+    font-size: 119px;
+}
+
+.landing-sub-text{
+    max-width: 759px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.landing-btn{
+ padding: 20px 70px !important;
+   font-size: 24px !important;
+   margin-bottom: 70px !important;
+}
+.landing-img{
+    position: relative;
+    /* z-index: 2; */
+}
+.landing-img::before{
+    
+        content: "";
+        position: absolute;
+        top: -25px;
+        left: -15px;
+        width: 170px;
+        height: 170px;
+        border: 3px solid var(--main-color);
+        z-index: -1;
+}
+.landing-img::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: var(--main-color);
+    bottom: 0px;
+    right: -63px;
+}
+.landing-img .icon{
+    position: absolute;
+    bottom: 30px; 
+    right: -20px; 
+    font-size: 40px; 
+    color: white;
+    z-index: 1; }
+
+    .statistics p:first-child{
+        font-size: 70px;
+    }
+
+    .statistics p:last-child{
+        font-size: 19px;
+    }
+@media (max-width:768px) {
+    .navbar{
+        margin-block-end: 50px;
+    }
+    .landing-mainText{
+        font-size: 50px;
+    }
+    .landing-sub-text{
+        font-size: 17px;
+    }
+    .landing-btn{
+        padding: 10px 30px !important;
+    }
+    .landing-img{
+        display: none;
+    }
+    .statistics p:first-child{
+        font-size: 40px;
+    }
+
+    .statistics p:last-child{
+        font-size: 15px;
+    }
+   
+}
+
+.services{
+    margin-block-start: 100px !important;
+    margin-block-end: 100px !important;
+
+}
+.line{
+  width: 100px;
+  height: 3px;
+    background-color: var(--main-color);
+}
+.service-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.content p:first-child{
+    font-weight: 600;
+    font-size: 30px;
+}
+@media (max-width:768px) {
+    .service-title{
+        font-size: 35px;
+    }
+    .content p:first-child{
+        font-size: 25px;
+    }
+}
+
+.design-title{
+    /* max-width:700px ; */
+    font-size: 60px;
+}
+.design-col-2{
+    position: relative;
+}
+.design-img{
+    position: absolute;
+    right: 20px;
+    width: 500px;
+}
+
+.circle{
+    background-color: var(--main-color);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.circle i{
+  ma
+}

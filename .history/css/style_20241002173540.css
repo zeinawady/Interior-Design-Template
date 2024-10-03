@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Inter", sans-serif;
+}
+
+:root{
+    --main-color:hsla(0, 0%, 12%, 1);
+
+}
+.navbar{
+    margin-block-end: 70px;
+}
+.landing-mainText{
+    font-size: 119px;
+}
+
+.landing-sub-text{
+    max-width: 759px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.landing-btn{
+ padding: 20px 70px;
+   font-size: 24px;
+   margin-bottom: 70px;
+}
+.landing-img{
+    position: relative;
+}
+.landing-img::before{
+    
+        content: "";
+        position: absolute;
+        top: -25px;
+        left: -15px;
+        width: 170px;
+        height: 170px;
+        border: 3px solid var(--main-color);
+        z-index: -1;
+}
+.landing-img::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: var(--main-color);
+    bottom: 0px;
+    right: -63px;
+}
+.landing-img .icon{
+    position: absolute;
+    bottom: 30px; 
+    right: -20px; 
+    font-size: 40px; 
+    color: white;
+    z-index: 1; }
+
+    .statistics p:first-child{
+        font-size: 70px;
+    }
+
+    .statistics p:last-child{
+        font-size: 19px;
+    }
+@media (max-width:768px) {
+    .navbar{
+        margin-block-end: 50px;
+    }
+    .landing-mainText{
+        font-size: 50px;
+    }
+    .landing-sub-text{
+        font-size: 17px;
+    }
+    .landing-btn{
+        padding: 10px 30px !important;
+    }
+    .landing-img{
+        display: none;
+    }
+    .statistics p:first-child{
+        font-size: 40px;
+    }
+
+    .statistics p:last-child{
+        font-size: 15px;
+    }
+   
+}
+
+.services{
+    margin-block-start: 100px !important;
+    margin-block-end: 100px !important;
+
+}
+.line{
+  width: 100px;
+  height: 3px;
+    background-color: var(--main-color);
+}
+.service-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.content p:first-child{
+    font-weight: 600;
+    font-size: 30px;
+}
+@media (max-width:768px) {
+    .service-title{
+        font-size: 35px;
+    }
+    .content p:first-child{
+        font-size: 25px;
+    }
+}
+
+.design-title{
+    /* max-width:700px ; */
+    font-size: 60px;
+}
+.design-col-2{
+    position: relative;
+}
+.design-img{
+    position: absolute;
+    right: 20px;
+    max-width: 570px;
+}
+
+.circle{
+    background-color: var(--main-color);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.circle .rocket{
+  padding: 23px 23px;
+  font-size: 28px;
+  color: white;
+}
+.design-content p:first-child{
+font-weight: 700;
+font-size: 25px;
+}
+.design-content p:last-child{
+    font-weight: 400;
+    font-size: 20px;
+    }
+
+    @media (max-width:768px) {
+        .design-title{
+            font-size: 33px;
+          
+        } 
+    }
+
+    .about-us{
+        margin-block-start: 200px !important;
+        margin-block-end: 70px !important;
+        position: relative;
+    }
+    .about-us h2{
+        position: absolute;
+        top: 0;
+        right: 210px;
+        font-size: 42px;
+        max-width: 400px;
+    }
+    .half-img{
+        width: 600px;
+    }
+    .about-us-imgs{
+        position: relative;
+    }
+    .about-us-card{
+        background-color: var(--main-color);
+       
+    }
+    .black-div{ 
+        width:500px ;
+        height: 500px;
+        position: absolute;
+        top: 180px;
+        left: 210px;
+    }
+    .black-div2{
+        left: 750px;
+    }
+    .arrows{
+        margin-top: 28px;
+    }
+    .arrows div{
+        margin-right: 30px;
+        padding-top: 10px;
+        text-align: center;
+        background-color: hsla(0, 0%, 95%, 1);
+        width: 53px;
+        height: 53px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+   
+    .quote{
+     font-size: 40px;
+    }
+    .about-us-text{
+        max-width: 450px;
+        font-size: 24px;
+    }
+    .text div:first-child{
+        font-weight: 700;
+    }
+    .about-us-mobile h2{
+        font-size: 30px;
+    }
+  .subscribe{
+  margin-block-start: 70px;
+  margin-block-end:70px;
+  max-width:900px;
+  position: relative;
+  }
+  .subscribe p:first-child{
+    font-size:50px;
+    font-weight: 700;
+  
+   
+  }
+  .subscribe p:last-child{
+    font-size:21px;
+  }
+  @media (max-width:768px) {
+    .subscribe p:first-child{
+        font-size:30px;
+    }
+  }
+
+  .email{
+position: absolute;
+bottom: -90px;
+max-width: 600px; 
+
+  }
+  footer{
+    background-color: var(--main-color);
+    padding-block-start: 100px;
+    padding-block-end: 120px;
+  }
+ footer a{
+   color: hsla(0, 0%, 82%, 1);
+ }
