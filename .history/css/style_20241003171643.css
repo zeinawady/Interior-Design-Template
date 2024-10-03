@@ -224,23 +224,19 @@ font-size: 25px;
   .subscribe p:last-child{
     font-size:21px;
   }
-
-  .email{
-position: absolute;
-bottom: -90px;
-max-width: 600px; 
-
-  }
   @media (max-width:768px) {
     .subscribe p:first-child{
         font-size:30px;
     }
-    .subscribe{
-        width:auto;
-        margin-right: 20px;
-    }
+    
   }
 
+  .email{
+position: absolute;
+bottom: -90px;
+/* max-width: 600px;  */
+
+  }
 
   footer{
     background-color: var(--main-color);

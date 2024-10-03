@@ -228,7 +228,7 @@ font-size: 25px;
   .email{
 position: absolute;
 bottom: -90px;
-max-width: 600px; 
+/* max-width: 600px;  */
 
   }
   @media (max-width:768px) {
@@ -237,7 +237,7 @@ max-width: 600px;
     }
     .subscribe{
         width:auto;
-        margin-right: 20px;
+        m
     }
   }
 

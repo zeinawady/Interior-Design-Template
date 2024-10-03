@@ -235,9 +235,8 @@ max-width: 600px;
     .subscribe p:first-child{
         font-size:30px;
     }
-    .subscribe{
-        width:auto;
-        margin-right: 20px;
+    .email{
+        width: auto;
     }
   }
 

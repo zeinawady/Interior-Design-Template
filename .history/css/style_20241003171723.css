@@ -212,7 +212,7 @@ font-size: 25px;
   .subscribe{
   margin-block-start: 70px;
   margin-block-end:70px;
-  max-width:900px;
+  /* max-width:900px; */
   position: relative;
   }
   .subscribe p:first-child{
@@ -235,9 +235,8 @@ max-width: 600px;
     .subscribe p:first-child{
         font-size:30px;
     }
-    .subscribe{
-        width:auto;
-        margin-right: 20px;
+    .email{
+        width: auto;
     }
   }
 
